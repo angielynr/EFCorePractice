@@ -18,6 +18,7 @@ namespace Calculator_Tests
         [Fact]
         public void Add_GivenTwoInttValues_ReturnsInt()
         {
+            _testOutputHelper.WriteLine("Add2Int");
             //Arrange
             var calc = _calculatorFixture.Calc;
 
